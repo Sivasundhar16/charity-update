@@ -848,4 +848,41 @@ body {
   }
 
   /* capturing the heart */
+
+  .capture_heart {
+    height: auto;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .capture_heart h1 {
+    font-size: 20px;
+    margin: 10px 0; /* Adjust spacing */
+  }
+
+  .makeimage {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    position: static; /* Remove absolute positioning */
+  }
+
+  .makeimage img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .gridfirst,
+  .gridsecond {
+    width: 100%;
+  }
+
+  .gridsecond img {
+    height: 180px; /* Reduce image height */
+    object-fit: cover;
+  }
 }

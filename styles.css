@@ -926,12 +926,14 @@ body {
 
 .firstimgfooter img {
   width: auto;
-  height: 60px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .firstpartflex {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  margin-left: 10px;
 }
 
 .firstdivfooter {
@@ -945,6 +947,10 @@ body {
 .makesecondflex {
   display: flex;
   gap: 20px;
+}
+
+.makesecondflex h3 {
+  margin-left: 20px;
 }
 
 .finalfooteriv {
@@ -1386,5 +1392,8 @@ body {
 
   .extendedflex {
     background-color: black;
+  }
+  .makewhite h4 {
+    font-size: 10px;
   }
 }

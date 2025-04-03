@@ -1130,10 +1130,15 @@ body {
     width: 300px;
   }
 
+  /* make change */
   .community-info {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 30px;
+  }
+
+  .community-info p {
+    width: 300px;
   }
 
   .avatars {
